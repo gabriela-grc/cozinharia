@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="24px"
+	 height="24px" viewBox="0 0 24 24" enable-background="new 0 0 24 24" xml:space="preserve">
+<g id="LP">
+	<g>
+		<defs>
+			<path id="SVGID_11_" d="M6.62,10.54c1.44,2.83,3.76,5.14,6.59,6.59l2.2-2.2c0.27-0.27,0.67-0.359,1.02-0.239
+				c1.12,0.369,2.33,0.569,3.57,0.569c0.55,0,1,0.45,1,1v3.49c0,0.55-0.45,1-1,1c-9.391,0-17-7.61-17-17c0-0.55,0.45-1,1-1h3.5
+				c0.55,0,1,0.45,1,1C8.5,5,8.7,6.2,9.07,7.32C9.18,7.67,9.1,8.06,8.82,8.34L6.62,10.54z"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_11_"  overflow="visible"/>
+		</clipPath>
+		<rect x="-2" y="-2.25" clip-path="url(#SVGID_2_)" fill="#141F45" width="28" height="28"/>
+	</g>
+</g>
+<g id="feedback" display="none">
+</g>
+<g id="HOVER" display="none">
+</g>
+<g id="MENU" display="none">
+</g>
+<g id="EDITAR_DOMINIO" display="none">
+</g>
+<g id="modal" display="none">
+</g>
+<g id="simular_click" display="none">
+</g>
+<g id="LOADING" display="none">
+</g>
+</svg>
