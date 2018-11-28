@@ -437,4 +437,11 @@ tr:hover {
     .description-event {
         font-size: 60%;
     }
+    .cardapio-images{
+        flex-flow: column wrap;=
+    }
+    .cardapio-images figure{
+        width: 100%;
+        margin: 3vh 0;
+    }
 }
