@@ -241,8 +241,11 @@
     width: 100%;
 }
 
-.contact {
+.footer{
     background: #F0DB48;
+}
+
+.contact {
     display: flex;
     flex-flow: row;
     justify-content: space-between;
