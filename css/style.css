@@ -18,18 +18,14 @@
 
 .component {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     height: 60px;
+    align-items: center;
 }
 
 .menu {
     display: flex;
     z-index: 2;
-}
-
-.menu li {
-    position: relative;
 }
 
 .menu li ul {
@@ -40,7 +36,6 @@
     position: absolute;
     display: flex;
     flex-flow: column wrap;
-    z-index: 2;
 }
 
 .menu a:hover {
@@ -153,13 +148,6 @@
     background: rgb(200, 200, 10);
 }
 
-.content-cardapio {
-    margin: 0 auto;
-    display: flex;
-    flex-flow: column;
-    align-items: center;
-}
-
 .cardapio {
     background: #F0DB48;
     padding: 10vh 0;
@@ -168,6 +156,13 @@
 .cardapio img {
     max-width: 50vw;
     max-height: 20vh;
+}
+
+.content-cardapio {
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
 }
 
 .line-blue {
@@ -198,18 +193,11 @@
 .photos figcaption {
     padding: 15px;
     box-sizing: border-box;
-}
-
-.information {
-    box-sizing: border-box;
-    background: #fafafa;
-    color: gray;
-}
-
-.information figcaption {
     white-space: nowrap;
     font-size: 90%;
     text-align: center;
+    background: #fafafa;
+    color: gray;
 }
 
 .photos figure span {
@@ -374,7 +362,7 @@ tr:hover {
     background: rgb(255, 240, 19, 0.5);
 }
 
-.conteudo-cardapio{
+.conteudo-cardapio {
     padding: 0;
 }
 
@@ -417,16 +405,13 @@ tr:hover {
     .icon {
         visibility: visible;
     }
-    #menu-type:checked~nav ul {
-        display: flex;
-    }
     #menu-type:not(:checked)~nav ul {
+        position: relative;
         display: none;
     }
-    .items {
-        flex-flow: column;
+    #menu-type:checked~nav ul li ul {
         position: relative;
-        display: block;
+        width: 100%;
     }
     .menu {
         position: absolute;
@@ -435,10 +420,6 @@ tr:hover {
         align-self: center;
         z-index: 2;
         width: 100%;
-    }
-    .menu li ul {
-        display: flex;
-        flex-flow: column wrap;
     }
     .information {
         font-size: 70%;
@@ -455,15 +436,5 @@ tr:hover {
     }
     .description-event {
         font-size: 60%;
-    }
-    figure:hover span {
-        top: 10;
-        height: auto;
-        font-size: 14px;
-        box-sizing: border-box;
-    }
-    figure:hover figcaption {
-        top: 0;
-        box-sizing: border-box;
     }
 }
