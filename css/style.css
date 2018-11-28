@@ -442,6 +442,13 @@ tr:hover {
     display: block;
 }
 
+.contact p{
+    line-height: 1.5;
+    padding: 5vh 0;
+    font-size: 14px;
+    max-width: 20%;
+}
+
 @media only screen and (max-width: 500px) {
     .navigation {
         position: relative;
@@ -507,5 +514,8 @@ tr:hover {
     }
     .gallery{
         flex-flow: column;
+    }
+    .contact p{
+        font-size: 12px;
     }
 }
