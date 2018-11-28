@@ -109,9 +109,9 @@
 }
 
 .left {
-    width: 70%;
-    padding: 10vh 0;
+    width: 60%;
     margin-right: 5%;
+    padding: 3vh 0;
 }
 
 .line {
@@ -121,8 +121,8 @@
 }
 
 .right img {
-    display: block;
     width: 100%;
+    height: 50%;
 }
 
 .about {
@@ -394,6 +394,29 @@ tr:hover {
 .cardapio-images img {
     width: 100%;
     height: 100%;
+}
+
+.content-cozinharia{
+    background: #f8f8f8;
+    padding: 10vh 0;
+}
+
+.a-cozinharia{
+    display: flex;
+}
+
+.right{
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    align-items: flex-start;
+}
+
+.left p{
+    color: #9b9797;
+    padding: 2vh 0 5vh;
+    font-size: 18px;
+    line-height: 1.2;
 }
 
 @media only screen and (max-width: 500px) {
