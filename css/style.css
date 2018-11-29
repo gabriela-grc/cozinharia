@@ -425,24 +425,55 @@ tr:hover {
     padding: 10vh 0 0;
 }
 
-.master-gallery h2{
+.master-gallery h2 {
     padding: 2vh 0;
     font-weight: bold;
 }
 
-.gallery {
+#gallery {
     display: flex;
     flex-flow: row;
     align-items: center;
 }
 
-.gallery img {
+#gallery img {
     width: 100%;
     max-width: 500px;
     display: block;
 }
 
-.contact p{
+.hidden {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.3);
+    display: none;
+}
+
+.box-image {
+    margin: 10vh auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.box-image button{
+    background: transparent;
+    padding: 10px;
+    font-weight: 900;
+    color: white;
+    border: none;
+    font-size: 30px;
+}
+
+.open {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact p {
     line-height: 1.5;
     padding: 5vh 0;
     font-size: 14px;
@@ -500,22 +531,22 @@ tr:hover {
         width: 100%;
         margin: 3vh 0;
     }
-    .content{
+    .content {
         flex-flow: column;
     }
-    .right{
+    .right {
         width: 100%;
     }
-    .left{
+    .left {
         width: 100%;
     }
-    .a-cozinharia{
+    .a-cozinharia {
         flex-flow: column;
     }
-    .gallery{
+    #gallery {
         flex-flow: column;
     }
-    .contact p{
+    .contact p {
         font-size: 12px;
     }
 }

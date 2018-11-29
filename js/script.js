@@ -1,17 +1,17 @@
 (function () {
-    var items = document.getElementById('items').classList
 
-    function showItems() {
-        items.toggle('hidden', false)
-        items.toggle('visible', true)
-    }
+    var main = document.getElementById('main');
+    var image = document.getElementById('image')
+    
 
-    function hiddenItems() {
-        items.toggle('hidden', true)
-        items.toggle('visible', false)
-    }
+    document.getElementById('gallery').addEventListener('click', function (e) {
+        main.classList.toggle('open', true)
+        document.getElementById('image').appendChild(e.target)
+    })
 
-    var action = document.getElementById('menu-items')
-    action.addEventListener('mouseover', showItems)
-    action.addEventListener('mouseout', hiddenItems)
+    document.getElementById('close').addEventListener('click', function (e) {
+        main.classList.toggle('hidden', true)
+        main.classList.toggle('open', false)
+        image.removeChild(image.childNodes[0])
+    })
 })();

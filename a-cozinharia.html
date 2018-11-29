@@ -83,13 +83,19 @@
                 </div>
                 <section class="master-gallery">
                     <h2>Galeria de fotos</h2>
-                    <div class="gallery">
+                    <div id="gallery">
                         <a><img src="img/cardapio-2-s.jpg"></a>
-                        <a><img src="img/cardapio-1-s.jpg"></a>
                         <a><img src="img/cardapio-3-s.jpg"></a>
                         <a><img src="img/cardapio-4-s.jpg"></a>
+                        <a><img src="img/cardapio-1-s.jpg"></a>
                         <a><img src="img/cardapio-5-s.jpg"></a>
                         <a><img src="img/cardapio-6-s.jpg"></a>
+                    </div>
+                    <div id="main" class="hidden">
+                        <div class="box-image">
+                            <a id="image"></a>
+                            <button id="close">&times;</button>
+                        </div>
                     </div>
                 </section>
             </div>
@@ -113,7 +119,7 @@
                         Domingo das 12h às 17h
                     </p>
                     <div class="midia">
-                        <a href="#"><img src="img/facebook-01.png"></a>
+                        <a href="#" id="image"><img src="img/facebook-01.png"></a>
                         <a href="#"><img src="img/twitter-01.png"></a>
                         <a href="#"><img src="img/linkedin-01.png"></a>
                     </div>
@@ -122,5 +128,6 @@
         </section>
     </footer>
 </body>
+<script src="js/script.js"></script>
 
 </html>
