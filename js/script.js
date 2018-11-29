@@ -1,17 +1,19 @@
 (function () {
 
-    var main = document.getElementById('main');
+    var main = document.getElementById('main')
     var image = document.getElementById('image')
-    
+    var close = document.getElementById('close')
+    var newImage = document.createElement("img")
 
     document.getElementById('gallery').addEventListener('click', function (e) {
         main.classList.toggle('open', true)
-        document.getElementById('image').appendChild(e.target)
+        newImage.src = e.target.src
+        image.append(newImage)
     })
 
-    document.getElementById('close').addEventListener('click', function (e) {
+    close.addEventListener('click', function () {
+        image.removeChild(image.childNodes[0])
         main.classList.toggle('hidden', true)
         main.classList.toggle('open', false)
-        image.removeChild(image.childNodes[0])
     })
 })();

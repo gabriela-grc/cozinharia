@@ -459,13 +459,17 @@ tr:hover {
     align-items: flex-end;
 }
 
-.box-image button{
+#close {
     background: transparent;
     padding: 10px;
-    font-weight: 900;
     color: white;
     border: none;
-    font-size: 30px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+#close:hover {
+    color: #9b9797;
 }
 
 .open {
